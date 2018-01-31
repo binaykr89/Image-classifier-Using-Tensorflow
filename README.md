@@ -10,11 +10,13 @@ curl http://download.tensorflow.org/example_images/flower_photos.tgz \ | tar xz 
 
 ls tf_files/flower_photos
 
+
 Set those shell variables as follows:
 
 IMAGE_SIZE=224
 
 ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}"
+
 
 Training
 python C:/Users/BINAY/tensorflow-for-poets-2/scripts/retrain.py \ --bottleneck_dir=C:/Users/BINAY/tensorflow-for-poets-2/tf_files/bottlenecks \ --how_many_training_steps=600 \ --model_dir=C:/Users/BINAY/tensorflow-for-poets-2/tf_files/models/"${ARCHITECTURE}" \ --summaries_dir=C:/Users/BINAY/tensorflow-for-poets-2/tf_files/training_summaries/"${ARCHITECTURE}" \ --output_graph=C:/Users/BINAY/tensorflow-for-poets-2/tf_files/retrained_graph.pb \ --output_labels=C:/Users/BINAY/tensorflow-for-poets-2/tf_files/retrained_labels.txt \ --image_dir=C:/Users/BINAY/tensorflow-for-poets-2/tf_files/flower_photos
