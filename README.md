@@ -30,5 +30,4 @@ python  C:/Users/BINAY/tensorflow-for-poets-2/scripts/label_image.py --graph=C:/
 
 * For [TensorFlow Lite](https://www.tensorflow.org/mobile/tflite/) the new, ground up rewrite targeted at mobile devices
   use [this version of the codelab](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite) 
-* For the more mature [TensorFlow Mobile](https://www.tensorflow.org/mobile/mobile_intro) use 
-  [this version of the codealab](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2).
+* For the more mature [TensorFlow] use [this version of the codealab](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets).
