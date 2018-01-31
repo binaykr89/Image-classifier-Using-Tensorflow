@@ -13,6 +13,7 @@ ls tf_files/flower_photos
 Set those shell variables as follows:
 
 IMAGE_SIZE=224
+
 ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}"
 
 Training
